@@ -1,0 +1,112 @@
+<div class="text-center">
+    <h1>Escuela de Magia de Howarts</h1>
+</div>
+<br>
+<div class="text-center">
+    <%=image_tag 'hogwarts.png', size: "300x300"%>
+</div>
+<br>
+<div>
+    <p>El Colegio Hogwarts de Magia y Hechicería es una escuela de magia perteneciente al universo de la saga de libros de Harry Potter. <br> <br>
+
+        Hogwarts es una escuela a la cual asisten jóvenes magos para desarrollar sus habilidades mágicas. El edificio, situado en las colinas de Escocia, es visto como un antiguo edificio en ruinas con un cartel que dice "cuidado, ruinas peligrosas", por las personas ajenas a poderes mágicos (más comúnmente conocidos como muggles). Tiene siete plantas, varias torres, escaleras que cambian de posición a su antojo y extensos terrenos que contienen un lago, un bosque, llamado El Bosque Prohibido, y varios invernaderos con fines botánicos. Además de sus numerosas aulas en las que se imparten las clases de pociones, transformaciones, Defensa contra las Artes Oscuras, Historia de la magia y demás asignaturas por asistentes calificados, el castillo posee lugares con fines diferentes. Ejemplos son el Gran Comedor (donde se celebran enormes banquetes en días especiales y que posee un techo mágico el cual parece ser el cielo y presenta el tiempo atmosférico del momento), las salas comunes, una gran biblioteca, la misteriosa Sala de los Menesteres o la legendaria Cámara Secreta, donde el famoso mago Harry Potter derrotó al mago tenebroso lord Voldemort por segunda vez y mató un basilisco usando la espada de Gryffindor, estando apenas en segundo año. Muchos pasajes ocultos, escaleras y retratos de pinturas en movimiento con vida propia, hacen que el recorrido por el castillo sea preocupante para los estudiantes más confusos, y emocionante para los más curiosos. <br> <br>
+        
+        Durante más de mil años, los alumnos fueron distribuidos a su llegada, en las diferentes casas, mediante el veredicto del Sombrero Seleccionador, con los apellidos de los cuatro fundadores de la escuela: Gryffindor, donde van los valientes de corazón; Hufflepuff, donde asisten los estudiantes trabajadores, honestos, amantes de los animales y la naturaleza; Ravenclaw, a donde pertenecen los inteligentes y sabios; y Slytherin, donde son audaces y ambiciosos. Durante la escolaridad de Harry, Albus Dumbledore es el director y los principales jefes de casa son los profesores McGonagall, Sprout, Flitwick y Snape (luego sustituido por Slughorn). <br> <br>
+        
+        La educación de un estudiante se lleva a cabo en siete años, comenzando sus estudios, como mínimo, a los once y abandonando la escuela, como mínimo, a los diecisiete años. La acción de la saga de Harry Potter tiene lugar principalmente dentro de la institución, cada novela equivale a un año escolar. <br> <br>
+        
+        Según la novela y las películas, el colegio no se encuentra bajo el poder del Ministerio de Magia (motivo de polémica en el quinto libro), organismo gubernamental que regula todos los aspectos de la vida en la comunidad mágica del territorio. Sin embargo, Hogwarts no es el único colegio de ese tipo, hay otros exponentes como la Academia de Magia Beauxbatons en Francia y el Instituto Durmstrang de Magia en el norte de Europa. <br> <br>
+        
+        El colegio aparece en todas las novelas de la serie, siendo el escenario principal de las mismas. En la última novela, Harry Potter y las reliquias de la Muerte, los tres protagonistas se mantienen alejados de Hogwarts durante la mayor parte del libro, regresando para la pelea que culmina la Segunda Guerra.</p>
+</div>
+<br>
+<br>
+<div>
+    <div class="text-center">
+        <h3>Casas</h3>
+    </div>
+    
+    <br>
+    <br>
+
+    <table class="table table-dark table-bordered border-secondary">
+        <thead>
+          <tr>
+            <th class="text-center text-warning" scope="col">Escudo</th>
+            <th class="text-center text-warning" scope="col">Nombre de la Casa</th>
+            <th class="text-center text-warning" scope="col">Jefes de la Casa Conocidos</th>
+            <th class="text-center text-warning" scope="col">Cualidades</th>
+            <th class="text-center text-warning" scope="col">Fantasma</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><%= image_tag 'gryffindor.png', size: "150x150"%></th>
+            <td class="text-center text-warning">Gryffindor</td>
+            <td class="text-center text-warning"><ul>
+                   <li>Godric Gryffindor (Edad Media)</li>
+                   <li>Albus Dumbledore</li> 
+                   <li>Minerva McGonagall</li> 
+                </ul>
+             </td>
+            <td class="text-center text-warning"><ul>
+                <li>Valor</li>
+                <li>Fuerza</li> 
+                <li>Audacia</li> 
+             </ul>
+            </td>
+            <td class="text-center text-warning">Nick Casi <br> Decapitado</td>
+          </tr>
+          <tr>
+            <th scope="row"><%= image_tag 'hufflepuff.png', size: "150x150"%></th>
+            <td class="text-center text-warning">Hufflepuff</td>
+            <td class="text-center text-warning"><ul>
+                   <li>Helga Hufflepuff (Edad Media)</li>
+                   <li>Pomona Sprouti<li> 
+                </ul>
+            </td>
+            <td class="text-center text-warning"><ul>
+                <li>Justicia</li>
+                <li>Lealtad</li> 
+                <li>Paciencia</li> 
+             </ul>
+            </td>
+            <td class="text-center text-warning">El Fraile Gordo</td>
+          </tr>
+          <tr>
+            <th scope="row"><%= image_tag 'ravenclaw.png', size: "150x150"%></th>
+            <td class="text-center text-warning">Ravenclaw</td>
+            <td class="text-center text-warning"><ul>
+                   <li>Rowena Ravenclaw (Edad Media)</li>
+                   <li>Filius Flitwicki</li> 
+                </ul>
+            </td>
+            <td class="text-center text-warning"><ul>
+                <li>Creatividad</li>
+                <li>Erudición</li> 
+                <li>Inteligencia</li> 
+             </ul>
+            </td >
+            <td class="text-center text-warning">La Dama Gris</td>
+          </tr>
+
+          <tr>
+            <th scope="row"><%= image_tag 'slytherin.png', size: "150x150"%></th>
+            <td class="text-center text-warning">Slytherin</td>
+            <td class="text-center text-warning"><ul>
+                   <li>Salazar Slytherin (Edad Media)</li>
+                   <li>Horace Slughorn (a partir del sexto año y antes del inicio de la serie)</li> 
+                   <li>Severus Snape</li> 
+                </ul>
+            </td>
+            <td class="text-center text-warning"><ul>
+                <li>Ambición</li>
+                <li>Determinación</li> 
+                <li>Astucia</li> 
+             </ul>
+            </td>
+            <td class="text-center text-warning">El Barón <br> Sanguinario</td>
+          </tr>
+        </tbody>
+    </table>
+</div>

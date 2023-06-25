@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'pages/index'
+  get '/hogwarts', to: 'pages#hogwarts'
+  get '/ilvermorny', to: 'pages#ilvermorny'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")

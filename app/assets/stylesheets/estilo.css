@@ -11,3 +11,39 @@ h1{
     font-family: 'HarryPotter7', sans-serif;
     
 }
+
+.navbar-brand{
+    font-family: 'Harry Potter', sans-serif;
+    color: #CDA434;
+}
+
+#navbarNav{
+    font-family: 'HarryPotter7', sans-serif;
+    
+}
+
+
+h6{
+    font-family: 'HarryPotter7', sans-serif;
+    color: #CDA434; 
+}
+
+td, th {
+    vertical-align: middle;
+  }
+  
+p{
+    font-family: 'HarryPotter7', sans-serif;
+    font-size: smaller;
+    color: #CDA434; 
+}
+
+h3{
+    font-family: 'HarryPotter7', sans-serif;
+    color: #CDA434; 
+}
+
+h5{
+    color: #CDA434;
+    font-family: 'Harry Potter', sans-serif;
+}
